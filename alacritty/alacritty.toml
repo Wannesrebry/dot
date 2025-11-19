@@ -1,0 +1,4 @@
+[terminal]
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-c", "tmux attach-session -t default || tmux new-session -s default"]
